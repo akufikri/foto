@@ -64,5 +64,5 @@ d.text((64, H - 68), "Dokumen ini diterbitkan secara elektronik dan sah tanpa ta
        font=ImageFont.truetype(F, 18), fill=(126, 126, 132))
 
 img = img.filter(ImageFilter.SMOOTH)
-img.save("/Users/fikrinurhakim/lab/osint/geotrap/public/photo.jpg", quality=88, optimize=True)
+img.save("/Users/fikrinurhakim/lab/osint/geotrap/docs/photo.jpg", quality=88, optimize=True)
 print("ok")
